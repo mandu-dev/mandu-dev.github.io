@@ -1,0 +1,88 @@
+/* 폰트 적용 by 구글 폰트 */
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|Share&display=swap');
+
+* {
+    font-family: 'Share', 'Nanum Gothic';
+}
+
+body {
+    background-color: #473777;
+    color: #c3dda5;
+}
+
+body#geekside {
+    background-color: black;
+    color: white;
+}
+
+.title {
+    margin: 50px;
+}
+
+.hello-world {
+    margin: 60px 30% 60px 30%;
+    font-size: 100px;
+    text-align: center;
+    color: #473777;
+    transition: background-color 0.3s;
+}
+
+.hello-world#geekHello {
+    margin: 60px 30% 60px 30%;
+    font-size: 100px;
+    text-align: center;
+    color: #000000;
+}
+
+.hello-world#geekHello:hover {
+    background-color: #a13a44;
+}
+
+.writing {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 28px;
+}
+
+.paragraph {
+    margin-left: 20px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #c3dda5;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #c3dda5;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #c3dda5;
+}
+
+a:link.dark {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited.dark {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover.dark {
+    text-decoration: underline;
+    color: white;
+}
+
+h1.disappear.o2jam:hover {
+    color: #5171a5;
+    transition: color 0.1s;
+}
+
+h1 { font-size: 48px; }
+h2 { font-size: 42px; }
+h3 { font-size: 36px; }

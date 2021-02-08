@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>M1N530K</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="title">
+        <span style="margin: 15px 15px 15px 0;">
+            <a href="" style="font-size: 48px;">M1N530K</a>
+        </span>
+        <span style="margin: 15px;">
+            <a href="https://github.com/mchu7797" style="font-size: 32px;">Github</a>
+        </span>
+        <span style="margin: 15px">
+            <a href="https://www.youtube.com/channel/UChXFI-g-iPlyNT6GUpG3YIg" style="font-size: 32px;">YouTube</a>
+        </span>
+        <span style="margin: 15px;">
+            <a href="https://dpjam.net" style="font-size: 32px;">DPJam</a>
+        </span>
+    </div>
+    <h1 class="hello-world" onmouseover="changeColor(this)" touchstart="changeColor(this)" id="hello">HELLO, WORLD!</h1>
+    <h3 style="text-align: center;">For my all visitors!</h3>
+    <div class="writing">
+        <h2 style="font-size: 48px;">About</h2>
+        <h3>Me :</h3>
+        <div class="paragraph">
+            I'm a Univ Student in Korea. also I'm learning computer science.
+        </div>
+        <h3 id="contact">Contact : </h3>
+        <div class="paragraph">
+            <a href="https://t.me/mchu7797">Telegram : mchu7797</a>
+            <br>
+            <a href="#contact">Discord : mchu7797#3072</a>
+            <br>
+            <a href="mailto:mchu7797@naver.com">mail : mchu7797@gmail.com</a>
+        </div>
+        <h3>Work :</h3>
+        <ul>
+            <li>Programming</li>
+            <li>Rhythm game pattern mapping like osu! and O2Jam.</li>
+            <li>Server managing of web, game server</li>
+        </ul>
+        <h3>Projects : </h3>
+        <ul>
+            <li>
+                <a href="https://github.com/mchu7797/MalodyToOsuMania">MalodyToOsuMania</a>
+            </li>
+            <li>
+                Oxygen Project
+            </li>
+            <ol>
+                <li>
+                    <a href="https://github.com/mchu7797/OxygenSync">OxygenSync (O2Jam score scrapper)</a>
+                </li>
+                <li>
+                    <a href="https://github.com/mchu7797/OxygenWeb">OxygenWeb (Website for DPJam includes scoreboard viewer and utils)</a>
+                </li>
+            </ol>
+            <li>
+                DPJam a.k.a O2Jam private server
+            </li>
+        </ul>
+    </div>
+    <script>
+        var colors = ['#e6261f', '#eb7532', '#f7d038', '#a3e048', '#49da9a', '#34bbe6', '#4355db', '#d23be7'];
+        var index = 0;
+    
+        function getRandomInt(min, max)
+        {
+            min = Math.ceil(min);
+            max = Math.floor(max);
+            return Math.floor(Math.random() * (max - min)) + min;
+        }
+
+        function changeColor(elements)
+        {
+            elements.style.backgroundColor = colors[getRandomInt(0, colors.length)];
+        }
+    </script>
+</body>
+</html>

@@ -1,2 +1,2 @@
-# m1n530k.github.io
+# M1N530K
 Personal site for introduce myself
